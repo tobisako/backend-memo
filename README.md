@@ -34,3 +34,15 @@ http://localhost:3000/api/courses
 
 localhost:3000/api/posts/2019/09  
 
+
+## json-server1
+https://qiita.com/tobisako/items/c1c3cac119716d1a643f  
+npm install -s json-server  
+node index.js  
+
+http://localhost:5000/
+http://localhost:5000/cbquest0
+http://localhost:5000/cbquest1
+　：
+
+

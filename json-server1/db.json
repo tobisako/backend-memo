@@ -1,0 +1,7 @@
+{
+  "cbquest0" : {"name":"ishinoono","description":"CBQuest Asset #0","image":"https://ipfs.io/ipfs/QmScp12jmbqkDcXzZxBd5bWqFfd5xSsxPXu4nwVv2UYP9g"},
+  "cbquest1" : {"name":"tetsunoken","description":"CBQuest Asset #1","image":"https://ipfs.io/ipfs/QmTZEY1WRiaP7B53ak8AzvHJ9d4d5YC4oXs8rHqA9w2Ya5"},
+  "cbquest2" : {"name":"yari","description":"CBQuest Asset #2","image":"https://ipfs.io/ipfs/QmUuuosmkYd19eimrRwuBatt93RsLmpUUcKE6tcBLTBjCR"},
+  "cbquest3" : {"name":"yuushanoken","description":"CBQuest Asset #3","image":"https://ipfs.io/ipfs/QmUzpyYzM5FKbdpgpuiamPMLuSpjHi1DQjUkjTdAPTg4ix"},
+  "cbquest4" : {"name":"meriken","description":"CBQuest Asset #4","image":"https://ipfs.io/ipfs/QmRgW8L5Dmj4Ui9VPDY2r5CMAGqvd4yR7z7fRbXsC8KysN"}
+}
