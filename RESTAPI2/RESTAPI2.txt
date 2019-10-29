@@ -1,0 +1,35 @@
+お題
+https://qiita.com/markusveeyola/items/878cfa5c3c7982ceb54d
+
+GET
+http://localhost:3000/
+http://localhost:3000/api/courses
+http://localhost:3000/api/courses/7
+
+POST
+http://localhost:3000/api/courses
+
+PUT
+http://localhost:3000/api/courses/1
+
+DELETE
+http://localhost:3000/api/courses/1
+
+参考：https://postd.cc/some-rest-best-practice/
+・動詞では無く名刺を使おう
+　GET /products : すべての製品のリストを返す
+　POST /products : コレクションに製品を加える
+　GET /products/4 : 4番の製品を取り出す
+　PATCH/PUT /products/4 : 4番の製品を更新する
+・複数形を使う
+　表示・削除・更新のアクションであっても、/artistの代わりに/artists
+・入れ子になったリソースを使う
+　GET /artists/8/albums
+・常に一貫性のあるエラーペイロードを返す
+　HTTP/1.1 401 Unauthorized
+　{
+　    "status": "Unauthorized",
+　    "message": "No access token provided.",
+　    "request_id": "594600f4-7eec-47ca-8012-02e7b89859ce"
+　}
+
